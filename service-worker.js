@@ -15,10 +15,10 @@
 var dataCacheName = 'coconutData';
 var cacheName = 'coconutPWA';
 var filesToCache = [
-  '/index.html',
-  '/app.js',
-  '/node_modules/bootstrap/dist/css/bootstrap.min.css',
-  '/img/palms.jpeg'
+  './index.html',
+  './app.js',
+  './node_modules/bootstrap/dist/css/bootstrap.min.css',
+  './img/palms.jpeg'
 ];
 
 self.addEventListener('install', function(e) {
