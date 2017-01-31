@@ -15,7 +15,6 @@
 var dataCacheName = 'coconutData';
 var cacheName = 'coconutPWA';
 var filesToCache = [
-  '/',
   '/index.html',
   '/app.js',
   '/node_modules/bootstrap/dist/css/bootstrap.min.css',
