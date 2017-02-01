@@ -18,7 +18,9 @@ var filesToCache = [
   './index.html',
   './app.js',
   './node_modules/bootstrap/dist/css/bootstrap.min.css',
-  './img/palms.jpeg'
+  './img/palms.jpeg',
+  './img/coconut-icecream.jpg',
+  './favicon.ico'
 ];
 
 self.addEventListener('install', function(e) {

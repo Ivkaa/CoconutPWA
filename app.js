@@ -1,4 +1,27 @@
-vm1 = new Vue({
+Vue.component('recipe', {
+    // template: '<li><slot></slot></li>'
+    //
+
+    template: `
+                <div>
+                <div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/coconut-icecream.jpg" alt="#">
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p><slot></slot></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                `
+});
+
+
+
+new Vue({
 
   // We want to target the div with an id of 'events'
   el: '#events',

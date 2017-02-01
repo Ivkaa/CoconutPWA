@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vue</title>
+  <title>CoconutPWA</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
   <!-- CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -24,6 +26,10 @@
   <style>
      .container-fluid {
         background-color: #f7986a;
+     }
+
+     ul.nav a:hover {
+         color: black !important;
      }
 
      .navbar a{
@@ -47,9 +53,12 @@
         font-size: 50px;
         color: white;
         text-shadow: 2px 2px 4px #000000;
-}
-    ul.nav a:hover {
-        color: black !important; }
+    }
+
+    .icon-bar {
+        background: #eeeeee;
+    }
+
   </style>
 </head>
 
@@ -59,13 +68,15 @@
   <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand">
-                  <i class="glyphicon glyphicon-star"></i> CoconutPWA w/ Vue <i class="glyphicon glyphicon-star"></i>
-            </a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand">
+                  <i class="glyphicon glyphicon-star"></i> CoconutPWA w/ Vue <i class="glyphicon glyphicon-star"></i>
+            </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -88,10 +99,10 @@
   </div>
 
 
-  <!-- main body of our application -->
+  <!-- main body of application -->
   <div class="container" id="events">
 
-    <!-- add an event form -->
+    <!-- event form -->
     <div class="col-sm-6">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -137,7 +148,12 @@
         </a>
       </div>
     </div>
+
+    <!-- picture thumbnail -->
+    <recipe>Hi!</recipe>
+
   </div>
+  <!-- end: main body of application -->
 
   <!-- JS -->
   <script src="node_modules/vue/dist/vue.js"></script>
