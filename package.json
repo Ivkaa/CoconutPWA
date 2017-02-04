@@ -1,0 +1,26 @@
+{
+  "name": "coconutpwa",
+  "description": "simple pwa for fun",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "vue": "2.1.5",
+    "vue-cli": "2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivkaa/CoconutPWA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivkaa/CoconutPWA/issues"
+  },
+  "homepage": "https://ivkaa.github.io/CoconutPWA",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivkaa",
+  "license": "ISC"
+}

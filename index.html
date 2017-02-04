@@ -5,23 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CoconutPWA</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
 
   <link rel="manifest" href="manifest.json">
 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Weather PWA">
-  <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
-  <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+  <link rel="apple-touch-icon" href="assets/img/icons/icon-152x152.png">
+  <meta name="msapplication-TileImage" content="assets/img/icons/icon-144x144.png">
   <meta name="msapplication-TileColor" content="#2F3BA2">
-
-  <script src="service-worker-registration.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <style>
      .container-fluid {
@@ -94,7 +90,7 @@
 
   <!-- image -->
   <div class="main-image" >
-      <img class="img-responsive" src="img/palms.jpeg" alt="palms">
+      <img class="img-responsive" src="assets/img/palms.jpeg" alt="palms">
       <div class="center">CoconutPWA</div>
   </div>
 
@@ -150,14 +146,17 @@
     </div>
 
     <!-- picture thumbnail -->
-    <recipe>Hi!</recipe>
+    <recipe title="Thumbnail label">Hi!</recipe>
 
   </div>
   <!-- end: main body of application -->
 
   <!-- JS -->
-  <script src="node_modules/vue/dist/vue.js"></script>
-  <script src="node_modules/vue-resource/dist/vue-resource.js"></script>
+  <script src="assets/js/jquery.js"></script>
+  <script src="service-worker-registration.js"></script>
+  <script src="assets/js/vue.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
   <script src="app.js"></script>
+  <script src="node_modules/vue-resource/dist/vue-resource.js"></script>
 </body>
 </html>

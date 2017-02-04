@@ -1,15 +1,17 @@
 Vue.component('recipe', {
-    // template: '<li><slot></slot></li>'
-    //
+
+    props: ['title'],
 
     template: `
                 <div>
                 <div>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
-                            <img src="img/coconut-icecream.jpg" alt="#">
+                            <img src="assets/img/coconut-icecream.jpg" alt="#">
                             <div class="caption">
-                                <h3>Thumbnail label</h3>
+                                <h3>
+                                {{ title }}
+                                </h3>
                                 <p><slot></slot></p>
                             </div>
                         </div>
