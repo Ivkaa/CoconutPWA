@@ -1,32 +1,12 @@
-Vue.component('recipe', {
-
-    props: ['title'],
-
-    template: `
-                <div>
-                <div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="assets/img/coconut-icecream.jpg" alt="#">
-                            <div class="caption">
-                                <h3>
-                                {{ title }}
-                                </h3>
-                                <p><slot></slot></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                `
-});
-
-
+import Vue from 'vue'
+import App from './App.vue'
 
 new Vue({
 
   // We want to target the div with an id of 'events'
   el: '#events',
+
+  render: h => h(App),
 
   // Here we can register any values or collections that hold data
   // for the application
@@ -37,8 +17,8 @@ new Vue({
 
   // Anything within the ready function will run when the application loads
   created() {
-		this.fetchEvents();
-	},
+       this.fetchEvents();
+   },
 
   // Methods we want to use in our application are registered here
   methods: {
@@ -89,4 +69,4 @@ new Vue({
       }
     }
   }
-});
+})

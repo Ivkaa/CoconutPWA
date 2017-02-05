@@ -1,5 +1,8 @@
 TODOs here:
-~ add webpack and vue-cli
 ~ add database
 ~ add second page w/ formular
 ~ add detail page
+~ add bootstrap loader
+
+DONE here:
+~ add webpack and vue-cli

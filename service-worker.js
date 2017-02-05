@@ -16,9 +16,10 @@ var dataCacheName = 'coconutData';
 var cacheName = 'coconutPWA';
 var filesToCache = [
   './index.html',
-  './app.js',
-  './assets/img/palms.jpeg',
-  './assets/img/coconut-icecream.jpg',
+  './webpack.config.js',
+  './dist/build.js',
+  './src/assets/img/palms.jpeg',
+  './src/assets/img/coconut-icecream.jpg',
   './favicon.ico'
 ];
 
