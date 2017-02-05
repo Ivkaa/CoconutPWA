@@ -18,6 +18,7 @@ var filesToCache = [
   './index.html',
   './webpack.config.js',
   './dist/build.js',
+  './dist/build.js.map',
   './src/assets/img/palms.jpeg',
   './src/assets/img/coconut-icecream.jpg',
   './favicon.ico'
