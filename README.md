@@ -1,6 +1,8 @@
-# hello-vue
+# CoconutPWA
 
 > A Vue.js project
+
+CoconutPWA is simple web app that runs offline
 
 ## Build Setup
 
