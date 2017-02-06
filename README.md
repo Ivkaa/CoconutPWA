@@ -1,4 +1,4 @@
-# CoconutPWA
+# ![image](https://raw.githubusercontent.com/Ivkaa/CoconutPWA/master/src/assets/img/icons/icon-32x32.png) CoconutPWA ![image](https://raw.githubusercontent.com/Ivkaa/CoconutPWA/master/src/assets/img/icons/icon-32x32.png)
 
 > A Vue.js project
 
