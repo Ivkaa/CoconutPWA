@@ -1,8 +1,11 @@
 TODOs here:
-~ add database
+~ Express.js
+~ MongoDB
 ~ add second page w/ formular
 ~ add detail page
 ~ add bootstrap loader
 
 DONE here:
 ~ add webpack and vue-cli
+~ server
+~ enable firewall on the server
